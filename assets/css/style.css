@@ -46,6 +46,18 @@ body {
     text-align:center;
 }
 
+.sobre{
+    text-align:center;
+}
+
+.sobre ul{
+    list-style-type: none;
+}
+
+.sobre li{
+    margin: 5px 0;
+}
+
 .links{
     background: linear-gradient(to right, #535863, rgba(0, 0, 0, 0.2));
 }
@@ -53,6 +65,7 @@ body {
 .links a{
     color: rgb(22, 25, 32) !important;
     text-decoration: none;
+    text-align:center;
     display:block;
 }
 
