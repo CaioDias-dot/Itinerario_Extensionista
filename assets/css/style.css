@@ -40,3 +40,36 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
+.Inicio_Pag {
+    display:block; 
+    text-align:center;
+}
+
+.links{
+    background: linear-gradient(to right, #535863, rgba(0, 0, 0, 0.2));
+}
+
+.links a{
+    color: rgb(22, 25, 32) !important;
+    text-decoration: none;
+    display:block;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links li{
+    margin: 5px 0;
+}
+
+.links a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #00bcd4 !important;
+    transition: all 0.2s ease;
+}
+
+.links a:visited{
+    color:black;
+}
